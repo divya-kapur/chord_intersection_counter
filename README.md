@@ -15,16 +15,28 @@ This Python script calculates the number of intersections among chords in a circ
 Ensure that you have Python 3.x installed on your system. You can download it from python.org.
 
 NumPy is used for handling arrays efficiently. You can install NumPy using pip:
+
     pip install numpy
 
 ## How to Use:
 
 **Input Format:** The script expects two inputs in list format. The first input is a list of radian measures, and the second is a list of corresponding identifiers.
-Example of radian measures: [0.78, 1.47, 1.77, 3.92]
-Example of identifiers: ["s1", "s2", "e1", "e2"]
 
 **Running the Script:** Run the script in a terminal or command prompt. When prompted, paste or type your radian measures and identifiers into the respective inputs.
     python chord_intersections.py
 
 **Output:** The script will output the count of intersecting chords based on the provided inputs.
+
+## Example:
+
+**Input:**
+
+    Enter list of radian measures: [0.78, 1.47, 1.77, 3.92]
+    Enter list of corresponding identifiers: ["s1", "s2", "e1", "e2"]
+
+**Output:** 
+
+    1
+
+
 
